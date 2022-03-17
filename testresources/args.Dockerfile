@@ -1,4 +1,4 @@
-FROM golang:1.13-alpine
+FROM golang:1.18beta1-alpine
 
 ARG FOO
 
