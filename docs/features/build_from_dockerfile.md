@@ -19,7 +19,7 @@ req := ContainerRequest{
 If your Dockerfile expects build args: 
 
 ```Dockerfile
-FROM alpine
+FROM alpine:3.15.4
 
 ARG FOO
 
